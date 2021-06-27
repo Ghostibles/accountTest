@@ -13,9 +13,10 @@ stages:
     vmImage: ununtu-latest
   jobs:
   - job:
-    - task: UseDotNet@2
-      inputs:
-        packageType: 'sdk'
-        version: '5.0.x'
+    steps:
+      - task: UseDotNet@2
+        inputs:
+          packageType: 'sdk'
+          version: '5.0.x'
 
       
