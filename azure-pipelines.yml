@@ -10,7 +10,7 @@ stages:
 - stage: Main
   displayName: "The main and only job"
   pool:
-    vmImage: ununtu-latest
+    vmImage: ubuntu-latest
   jobs:
   - job:
     steps:
